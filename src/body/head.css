@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.navbar-nav .nav-item .nav-link {
+    margin-right: 20px; 
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0s;
+    padding: 10px 0px;
+    border-bottom: 2px solid transparent;
+    position: relative;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+
+    
+  }
+
+
+.navbar{
+  backdrop-filter: blur(0.5px); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  z-index: 1000;
+  background-color: #84A98C;
+
+}
+
+.nav-item :hover{
+  background-color: #354F52;
+  transition: all 0.3s ease-in-out;
+ 
+}
+
+.nav-title{
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Abel", sans-serif;
+  margin-top: 90px;
+
+ 
+}
+.nav-p{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.head-img{
+  width: 10%;
+  border-radius: 50%;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* HEADER */
+.header{
+    background-color: #cad2c5ad;
+    /* background-color: #c99015ee; */
+    height: 100vh;
+    width: auto;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  top: 50px;
+  
+  
+}
+.header img{
+    top: 90px;
+    right: 50px;
+    position: fixed;
+    z-index: -1;
+    max-width: 40%; 
+    height: 100%; 
+    align-self: flex-start; 
+    opacity: 1; 
+    transition: all 0.3s ease 0s; 
+    filter: grayscale(50%);
+    -webkit-filter: grayscale(50%); 
+
+
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    color: #2F3E46;
+}
+
+
+.header-text h1{
+
+  font-size: 35px;
+  font-family: "Dancing Script", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+.header-text h3{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
